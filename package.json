@@ -1,12 +1,25 @@
 {
-  "name": "use-localstorage",
-  "description": "A React hook like setState that helps persisting and syncing values across Tabs in realtime.",
+  "name": "@pedily/use-local-storage",
+  "description": "A react hook like setState that helps persisting and syncing values across tabs in realtime.",
+  "keywords": [
+    "react",
+    "hook",
+    "localstorage",
+    "persistent",
+    "sync"
+  ],
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "github:pedily/use-local-storage"
+  },
+  "homepage": "https://github.com/pedilz/use-local-storage#readme",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": "^17.0.2"
