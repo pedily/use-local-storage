@@ -16,7 +16,7 @@
     "type": "git",
     "url": "github:pedily/use-local-storage"
   },
-  "homepage": "https://github.com/pedilz/use-local-storage#readme",
+  "homepage": "https://github.com/pedily/use-local-storage#readme",
   "scripts": {
     "build": "tsc -p .",
     "prepare": "npm run build"
